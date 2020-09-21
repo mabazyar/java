@@ -26,10 +26,10 @@ public class BrightSpace {
   // Calculates the net proceeds as per the given formula
   double netProceeds = valueOfShare - commission;
   // Prints out the value of share on the screen
-  System.out.printf("Value of share: %.2f\n", valueOfShare);
+  System.out.printf("Value of share: $%.2f\n", valueOfShare);
   // Prints out the commission on the screen
-  System.out.printf("Commission: %.4f\n", commission);
+  System.out.printf("Commission: $%.4f\n", commission);
   // Prints out the net proceeds on the screen
-  System.out.printf("Net proceeds: %.4f\n", netProceeds);
+  System.out.printf("Net proceeds: $%.4f\n", netProceeds);
  }
 }
